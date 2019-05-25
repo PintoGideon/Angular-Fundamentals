@@ -1,5 +1,8 @@
 # Project
 .idea
+package-lock.json
+yarn.lock
+webpack.config.js
 
 # Node
 node_modules
