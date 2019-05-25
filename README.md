@@ -5,6 +5,10 @@ Building Blocks that contain
 routes, components, services
 and more
 
+images.githubusercontent.com/15992276/58364398-c1464680-7e81-11e9-9202-acbf0dc5a454.JPG)
+![onChanges object](https://user-images.githubusercontent.com/15992276/58364399-c1464680-7e81-11e9-8d7b-8b87557d0736.JPG)
+![Smart Components](https://user-images.githubusercontent.com/15992276/58364400-c1464680-7e81-11e9-8b2d-103e98ea2764.JPG)
+
 An App can be divided into components. For
 a chat app we can have 3 components
 - search
