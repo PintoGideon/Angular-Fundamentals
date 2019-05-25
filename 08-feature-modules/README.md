@@ -1,5 +1,9 @@
 Lifecycle hook is a function called by Angular
 when something happens.
+![Angular Emitter](https://user-images.githubusercontent.com/15992276/58364396-c0adb000-7e81-11e9-9cfd-6b85a9eba9c1.JPG)
+![ngmodel](https://user-images.githubusercontent.com/15992276/58364397-c1464680-7e81-11e9-9756-a18867ee52b3.JPG)
+![ngonChanges](https://user-images.githubusercontent.com/15992276/58364398-c1464680-7e81-11e9-9202-acbf0dc5a454.JPG)
+![onChanges object](https://user-images.githubusercontent.com/15992276/58364399-c1464680-7e81-11e9-8d7b-8b87557d0736.JPG)
 
 **_OnInit lifecycle_** hook is used when the component
 is initialized. When our component is ready, Anguar will call our OnInit function for us.
