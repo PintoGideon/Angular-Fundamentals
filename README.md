@@ -11,7 +11,7 @@ The project uses `webpack` to build and compile all of our assets. This will do 
 - Mock a JSON backend using [json-server](https://github.com/typicode/json-server)
 
 
-### I have included README.md file of my note in each of the lecture's folder.
+### I have included a README.md file with topic specific notes in each of the lecture's folder.
 
 ### Modules
 Building Blocks that contain
