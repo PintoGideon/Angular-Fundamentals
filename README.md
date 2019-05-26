@@ -11,7 +11,25 @@ The project uses `webpack` to build and compile all of our assets. This will do 
 - Mock a JSON backend using [json-server](https://github.com/typicode/json-server)
 
 
+
+
 ### I have included a README.md file with topic specific notes in each of the lecture's folder.
+
+# How does the change detection in Angular really work?
+
+Angular can detect when component data changes, and then automatically re-render the view to reflect that change. But how can it do so after such a low-level event like the click of a button, that can happen anywhere on the page?
+
+### Overriding Browser's Default Mechanisms
+
+To understand how this works, we need to start by realizing that in Javascript the whole runtime is overridable by design. What happens is that Angular at startup time will patch several low-level browser APIs, such as for example addEventListener, which is the browser function used to register all browser events, including click handlers. Angular will replace addEventListener with a new version 
+
+The new version of addEventListener adds more functionality to any event handler: not only the registered callback is called, but Angular is given a chance to run change detection and update the UI.
+
+### How does the default change detection mechanism work?
+This method might look strange at first, with all the strangely named variables. But by digging deeper into it, we notice that it's doing something very simple: for each expression used in the template, it's comparing the current value of the property used in the expression with the previous value of that property.
+
+If the property value before and after is different, it will set isChanged to true, and that's it! Well almost, it's comparing values by using a method called 
+looseNotIdentical(), which is really just a === comparison with special logic for the NaN case
 
 ### Modules
 Building Blocks that contain
