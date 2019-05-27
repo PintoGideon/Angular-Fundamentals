@@ -35,7 +35,7 @@ changed. At run time the dirty property value will be false if the user has not 
 
 ### Submit the form
 
-- The user should be able to submit this form after filling it in. The Submit button at the bottom of the form does nothing on its own, but it will trigger a form submit because of its type (type="submit").
+The user should be able to submit this form after filling it in. The Submit button at the bottom of the form does nothing on its own,     but it will trigger a form submit because of its type (type="submit").
   A "form submit" is useless at the moment. To make it useful, bind the form's ngSubmit event property to the hero form component's onSubmit() method:
 
 ### Create the handleSubmit function to emit an event to the parent component
