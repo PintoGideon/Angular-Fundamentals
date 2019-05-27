@@ -39,7 +39,7 @@ Home
 
 ### Dynamic construction of our navigation.
 
-- We will create an interface first
+We will create an interface first
 
 ```javascript
 interface Nav {
