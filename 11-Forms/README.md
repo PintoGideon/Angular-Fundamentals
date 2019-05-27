@@ -18,7 +18,7 @@ If we want to set an initial value we can bind the ngModel(code snippet below). 
 [ngModel]="detail?.fullname"
 ```
 
-### ```javascript <select>``` option rendering and ngValue
+### ``` <select>``` option rendering and ngValue
 
 ### HTML select attribute
 
