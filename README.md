@@ -15,7 +15,7 @@ The project uses `webpack` to build and compile all of our assets. This will do 
 
 ### I have included a README.md file with topic specific notes in each of the lecture's folder.
 
-# How does the change detection in Angular really work?
+### How does the change detection in Angular really work?
 
 Angular can detect when component data changes, and then automatically re-render the view to reflect that change. But how can it do so after such a low-level event like the click of a button, that can happen anywhere on the page?
 
@@ -93,4 +93,31 @@ be used by a child component to notify a parent
 component of any changes.
 
 Data flows down, events emit up.
+
+### Snapshots of the Final Airline Passenger App
+ 
+ - Home Page
+![Home Page 1](https://user-images.githubusercontent.com/15992276/58393524-119ddf80-800d-11e9-9e1a-47a1ceec354c.JPG)
+
+- Edit Functionality
+
+![Persisting state-1](https://user-images.githubusercontent.com/15992276/58393525-119ddf80-800d-11e9-9a5c-f86f18ec20f5.JPG)
+![Persisting state-2](https://user-images.githubusercontent.com/15992276/58393526-119ddf80-800d-11e9-8bbe-e96ce0ceaa32.JPG)
+
+![Edit a Passenger](https://user-images.githubusercontent.com/15992276/58393522-11054900-800d-11e9-8f7f-a597deababe9.JPG)
+
+- Form to Update a Passenger
+![Update a Passenger](https://user-images.githubusercontent.com/15992276/58393529-119ddf80-800d-11e9-88e8-890e051fa861.JPG)
+
+- An Example of Form input
+![Form input](https://user-images.githubusercontent.com/15992276/58393523-119ddf80-800d-11e9-8214-db6430e971c7.JPG)
+
+- Delete Functionality 
+![Remove A Passenger](https://user-images.githubusercontent.com/15992276/58393527-119ddf80-800d-11e9-8624-d699f80a59a3.JPG)
+
+
+
+
+
+
 
