@@ -23,7 +23,7 @@ If we want to set an initial value we can bind the ngModel(code snippet below). 
 
 ### HTML select attribute
 
-```html
+```javascript
 <select name="carlist" form="carform">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
