@@ -5,7 +5,6 @@
 
 </form>
 ```
-
 The piece of code above exports the ngform which is an angular directive which works under the hood to essentially keep track of all of the state changes and all the validation of the inputs inside the form.
 
 We can use ngModel as a standalone attribute which is actually a directive from angular.
@@ -24,12 +23,14 @@ If we want to set an initial value we can bind the ngModel(code snippet below). 
 ### HTML select attribute
 
 ```javascript
+
 <select name="carlist" form="carform">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="opel">Opel</option>
   <option value="audi">Audi</option>
 </select>
+
 ```
 
 ### Using the select attribute in Angular
